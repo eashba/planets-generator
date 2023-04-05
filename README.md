@@ -25,7 +25,7 @@ There are currently 11 types of planets that can be generated. The range of avai
 ### Credit
 - The space sprite and shaders come primarily from this three.js [particle example](https://threejs.org/examples/?q=points#webgl_custom_attributes_points), heavily modified.
 - Many of the low level GLSL shared helper functions defined in `/src/shaders/helpers.ts` come from this collection of [noise algorithms](https://gist.github.com/patriciogonzalezvivo/670c22f3966e662d2f83).
-- The landmass and cloud shaders include code from [Pixel Planets](https://github.com/Deep-Fold/PixelPlanets), heavily modified for 3D.
+- The landmass and cloud shaders include code from [Pixel Planets](https://github.com/Timur310/PixelPlanets), heavily modified for 3D.
 - Planet names come from the human planet namelist from Stellaris, a Sci-Fi strategy game.
 
 
