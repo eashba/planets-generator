@@ -14,10 +14,10 @@ The scene consists of four distinct elements
 - Planet landmass layer
 - Planet cloud layer (optional)
 
-Each element has its own GLSL shader that determines its appearance. Depending on the type of planet, there may be variations in the shader behavior, such as color scheme, and cloud density. The planet shaders utilize [Fractal Brownian Motion](https://thebookofshaders.com/13/) to generate the 'topography' before it is colored. 
+Each element has its own GLSL shader that determines its appearance. Depending on the type of planet, there may be variations in the shader behavior, such as color scheme, and cloud density. The planet shaders utilize [Fractal Brownian Motion](https://thebookofshaders.com/13/) to generate the topography and clouds.
 
 ### Getting Started
-This can be ran locally with `yarn && yarn dev` and will be avaliable at http://localhost:5173/
+This can be ran locally with `yarn && yarn dev` and will be avaliable at `http://localhost:5173/` by default.
 
 ### Extending Behavior
 There are currently 11 types of planets that can be generated. The range of avaialble planets can be extended by creating new planet type functions in `planet-types.ts` that return all of the necessary information consumed by the planet builder. This info includes things like color scheme, and number ranges for randomly generating filler information.
