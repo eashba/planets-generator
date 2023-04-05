@@ -6,7 +6,7 @@ https://planets-generator.vercel.app/
 
 ### About
 
-This is a small tech demo utilizing Three.js and custom GLSL shaders to randomly generate planets. Additionally, some filler information is randomly generated to accompany the planet.
+This is a small tech demo utilizing three.js and custom GLSL shaders to randomly generate planets. Additionally, some filler information is randomly generated to accompany the planet.
 
 The scene consists of four distinct mesh elements
 - Space
