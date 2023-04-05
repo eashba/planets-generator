@@ -1,6 +1,7 @@
 import * as THREE from "three";
 import { spaceVertexShader, spaceFragmentShader } from "../shaders/space-shaders";
 
+import { spark } from '../assets';
 
 export const createSpace = () => {
 
@@ -26,7 +27,7 @@ export const createSpace = () => {
 
   const material = new THREE.ShaderMaterial({
     uniforms: {
-      pointTexture: { value: new THREE.TextureLoader().load('./src/assets/spark1.png') }
+      pointTexture: { value: new THREE.TextureLoader().load(spark) }
     },
     vertexShader: spaceVertexShader(),
     fragmentShader: spaceFragmentShader(),
