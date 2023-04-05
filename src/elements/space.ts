@@ -1,6 +1,7 @@
 import * as THREE from "three";
 import { spaceVertexShader, spaceFragmentShader } from "../shaders/space-shaders";
 
+// @ts-ignore
 import { spark } from '../assets';
 
 export const createSpace = () => {
