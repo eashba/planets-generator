@@ -1,4 +1,4 @@
-# Random Planets
+# Planets Generator
 
 *The territory of the **Intergalactic Federation** is vast, and it's worlds uncountable. This program was built to provide the latest geographic and economic data of each inhabited world within its borders.*
 
@@ -20,7 +20,7 @@ Each element has its own GLSL shader that determines its appearance. Depending o
 This can be ran locally with `yarn && yarn dev` and will be avaliable at `http://localhost:5173/` by default.
 
 ### Extending Behavior
-There are currently 11 types of planets that can be generated. The range of avaialble planets can be extended by creating new planet type functions in `planet-types.ts` that return all of the necessary information consumed by the planet builder. This info includes things like color scheme, and number ranges for randomly generating filler information.
+There are currently 11 types of planets that can be generated. The range of available planets can be extended by creating new planet type functions in `planet-types.ts` that return all of the necessary information consumed by the planet builder. This info includes things like color scheme, and number ranges for randomly generating filler information.
 
 ### Credit
 - The space sprite and shaders come primarily from this three.js [particle example](https://threejs.org/examples/?q=points#webgl_custom_attributes_points), heavily modified.
