@@ -1,3 +1,6 @@
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/eashba/planets-generator/main/images/planet-icon.png" width="150px" />
+</div>
 <h1 align="center">
 Random Planets
 </h1>
