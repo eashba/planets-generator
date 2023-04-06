@@ -79,6 +79,6 @@ const getRandomizedGDP = () => {
 
 const getRandomizedYear = () => {
   const value = getRandomInt(3500, 4500)
-  return value + ' BC'
+  return value + ' CE'
 
 }
